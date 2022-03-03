@@ -1,0 +1,8 @@
+{
+  "name": "health-plan-launches-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:brunohsweber/health-plan-launches-api.git",
+  "author": "Bruno Weber <contato@brunoweber.com.br>",
+  "license": "MIT"
+}
