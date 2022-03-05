@@ -8,7 +8,11 @@
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --poll --inspect --transpile-only --ignore-watch node_modules --respawn src/shared/infra/http/server.ts"
   },
+  "prisma": {
+    "schema": "src/shared/infra/http/prisma/schema.prisma"
+  },
   "dependencies": {
+    "@prisma/client": "^3.10.0",
     "bcrypt": "^5.0.1",
     "colors": "^1.4.0",
     "dayjs": "^1.10.8",
