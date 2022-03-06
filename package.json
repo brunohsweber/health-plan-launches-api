@@ -9,7 +9,7 @@
     "dev": "ts-node-dev -r tsconfig-paths/register --poll --inspect --transpile-only --ignore-watch node_modules --respawn src/shared/infra/http/server.ts"
   },
   "prisma": {
-    "schema": "src/shared/infra/http/prisma/schema.prisma"
+    "schema": "src/shared/infra/prisma/schema.prisma"
   },
   "dependencies": {
     "@prisma/client": "^3.10.0",
