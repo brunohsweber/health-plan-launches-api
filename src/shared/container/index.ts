@@ -7,3 +7,8 @@ container.registerSingleton<IUsersRepository>(
   "UsersRepository",
   UsersRepository
 );
+
+container.registerSingleton<IUsersRepository>(
+  "UsersRepository",
+  UsersRepository
+);
